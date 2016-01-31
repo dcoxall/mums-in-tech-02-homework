@@ -9,9 +9,37 @@
  * minimal changes to the HTML itself.
  */
 
+ header {
+ 	background-color: #000066;
+ 	color: white;
+ 	font-family: Courier New, Courier, monospace;
+ 	letter-spacing: 3px;
+ 	text-align: center;
+ 	padding-top: 10px;
+    padding-right: auto;
+    padding-bottom: 10px;
+    padding-left: auto;
+}
+code:hover {
+	-webkit-transform: rotate(360deg);
+	transition-duration: 3s;
+	}
 body {
   /* I prefer sans-serif (without curls) so I'm changing it haha */
   font-family: Helvetica, sans-serif;
+}
+a:link {
+   color: #000066;
+}
+a:visited {
+	color: #6600ff;
+}
+a:hover {
+    color: #cc0000;
+}
+.topic-title {
+	color: #000066;
+	font-family: Courier New, Courier, monospace;
 }
 
 /*
