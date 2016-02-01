@@ -1,42 +1,79 @@
-/*
- * Mums in Tech | Week 03
- *
- * I have put some basic CSS in place to give everyone a
- * nice starting point. Feel free to change it however.
- *
- * You challenge, if you choose to accept it, is to
- * put your own design/ideas into the provided HTML with
- * minimal changes to the HTML itself.
- */
-
 body {
-  /* I prefer sans-serif (without curls) so I'm changing it haha */
-  font-family: Helvetica, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #a9c3a8;
+  background-image: url("http://sg.theasianparent.com/wp-content/blogs.dir/1/files/7-mothers-ruling-the-tech-world/we-can-do-it.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+  line-height: 1.3;
+  border-top: 5px solid #fff;
 }
 
-/*
- * Center content by setting a width but giving the left and right
- * margin a value of auto
- */
+h1 {
+	text-align: center;
+	text-shadow: 1px 1px #16271a;
+}
+
 .container {
-  width: 700px;
+  width: 600px;
   margin: 0 auto;
 }
 
-.content ul {
-  margin: 0;
-  padding: 0;
+h2 {
+  margin: 120px 0px 120px 110px;
+  padding: 15px 5px 15px 5px;
   list-style-type: none;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 69px;
+  display: inline;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
-/*
- * Resources that may help you and properties worth checking out...
- *
- * https://css-tricks.com/almanac/properties/b/box-sizing
- * https://developer.mozilla.org/en/docs/Web/CSS/border-radius
- * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
- * http://flexboxfroggy.com/
- *
- * Remember there is no right or wrong. The aim is to expose yourself to a wider range
- * of CSS properties.
- */
+h2:hover {
+	background-color: #e8ea3a;
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#accordion {
+	width: 600px;
+	margin: 100px 0px 100px 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#accordion h4 {
+	font-size: 13pt;
+	margin: 0px;
+	padding: 10px;
+	background-color: #c1ce81;
+	border-bottom: 2px solid #fff;
+}
+
+#accordion li p.topic-content {
+	display: none;
+	padding: 10px;
+	background-color: #fff;
+	border: 2px solid #ddd;
+}
+
+#accordion li:hover p.topic-content {
+	display: inherit;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
