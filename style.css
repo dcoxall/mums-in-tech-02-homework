@@ -12,6 +12,7 @@
 body {
   /* I prefer sans-serif (without curls) so I'm changing it haha */
   font-family: Helvetica, sans-serif;
+  background-color: #b8eeee;
 }
 
 /*
@@ -27,8 +28,29 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+ }
+
+.topic li 	{
+	margin: 10px auto;
+	width: 900px;
 }
 
+.topic-title {
+	color: dark blue;
+}
+/* changing the list to boxes - it's not pretty but I wanted to practise Git*/
+li {
+	width: 300px;
+	display: inline-block;
+	border: 2px solid black;
+	margin-bottom: 4px;
+	background-color: blue;
+
+}
+/*adding a bit more*/
+h2	{
+	color: purple;
+}
 /*
  * Resources that may help you and properties worth checking out...
  *
