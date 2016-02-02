@@ -11,24 +11,45 @@
 
 body {
   /* I prefer sans-serif (without curls) so I'm changing it haha */
-  font-family: Helvetica, sans-serif;
+	/* lets see what Arial looks like*/
+  font-family: Arial;
+background-color: #afeeee;
 }
+
+
+h1 {
+
+color: #680000;
+background-color: #003362
+
 
 /*
  * Center content by setting a width but giving the left and right
  * margin a value of auto
  */
 .container {
-  width: 700px;
+  width: 550px;
   margin: 0 auto;
-}
+
 
 .content ul {
-  margin: 0;
-  padding: 0;
+  margin: 20;
+  padding: 5;
   list-style-type: none;
 }
+ 
+ 
+h2 {
 
+	color: #006400;
+	background-color: #FAF0E6
+}
+
+h3 {
+
+	color: #000066;
+	background-color: #FFFFFF
+}
 /*
  * Resources that may help you and properties worth checking out...
  *
